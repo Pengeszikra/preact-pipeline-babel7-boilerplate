@@ -1,7 +1,7 @@
 # preact - pipeline operator - babel 7 - weabpack - boilerplate
-Babel 7 come with lot of new javascript features. Include my favorite: pipeline operator. So this is the right time to create minimal building script for preact, which is the smallest JSX framework based on react.
+Babel 7 come with lot of new javascript features. Include my favorite: [pipeline operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Pipeline_operator). So this is the right time to create minimal building script for [preact](https://preactjs.com/), which is the smallest JSX framework based on react.
 
-> compare dist sizes: **react** 111.429 byte  <--> **preact** 9.513 byte
+> compare dist sizes: **react** 111.389 byte  <--> **preact** 9.513 byte
 
 ## Pipeline operator
 which is give syntax sugar for .....
@@ -24,7 +24,7 @@ const result = double(increment(double(double(parseInt("5")))));
 ```
 
 ## Important fragment of build script
-```{"pragma": "h"}``` option turn @babel/preset-env to preact.
+```{"pragma": "h"}``` option turn ```@babel/preset-env``` to preact.
 
 ```json
 {
